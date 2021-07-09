@@ -33,11 +33,16 @@ $menu = [
 
 <header>
     <div class="topnav">
-        <h1>DC POWER ADDITIONAL SITES</h1>
+        <div>
+            <span>DC POWER VISA </span>
+        </div>
+        <div>
+            <span>ADDITIONAL SITES</span>
+        </div>
+        
+        
     </div>
     <div class="main_menu">
-        main menu
-
         <nav>
             <ul>
                 @foreach($menu as $item)
@@ -45,5 +50,8 @@ $menu = [
                 @endforeach
             </ul>
         </nav>
+    </div>
+    <div class="jumbotron">
+        <img src="/blog/public/img/jumbotron.png" alt="">
     </div>
 </header>

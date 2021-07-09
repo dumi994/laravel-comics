@@ -9,10 +9,12 @@
     
         <div class="comic">
             <img src="{{$comic['thumb']}}" alt="">
-            <h2>
-
+            <h2>   
                 {{$comic['series']}}
             </h2>
+            <p>
+                {{$comic['description']}}
+            </p>
         </div>
    
 @endsection
