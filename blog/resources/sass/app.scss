@@ -1,4 +1,4 @@
-//
+//common
 body{
     background-color: #333;
 
@@ -14,6 +14,7 @@ $dc-white: #ffffff;
     margin:0;
     padding:0;
 }
+// header
 header{
     .topnav{
         background-color:$dc-blue;
@@ -31,4 +32,58 @@ header{
             margin-right: 10px;
         }
     }
+    .main_menu{
+        display: flex;
+        height:100px;
+        background-color: $dc-white;
+        align-items: center;
+        justify-content: center;
+        .logo{
+            padding-right: 120px;
+            img{
+                width:70%;
+                height: 70%;
+            }
+        }
+        nav{
+            ul{
+                display: flex;
+                list-style-type: none;
+                li{
+                    a{ 
+                        text-transform: uppercase;
+                        color:white;
+                        text-decoration: none;
+                        color: $dc-gray; 
+                        margin: 10px;
+                    }
+                    
+                }
+                .input-container{
+                    margin-left: 50px;
+                    border-bottom: 3px solid $dc-blue;
+                    input{
+                    text-align: right;
+                    width:100px;
+                    border: none;
+                    }
+                    input:focus {
+                        outline-width: 0;
+                    }
+                    i{
+                        color:$dc-gray;
+                        padding-left:3px;
+                        font-size: 14px;
+                    }
+                }
+                
+            }
+        }
+    }
 }
+
+//main
+
+
+
+//footer

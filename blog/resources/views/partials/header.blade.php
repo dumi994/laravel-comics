@@ -43,15 +43,23 @@ $menu = [
         
     </div>
     <div class="main_menu">
+        <div class="logo">
+
+            <img src="{{asset('img/dc-logo.png')}}" alt="">
+        </div>
         <nav>
             <ul>
                 @foreach($menu as $item)
                     <li><a href="{{$item['href']}}" class="{{Route::currentRouteName() === $item['href'] ? 'active' : ' '}}">{{$item['text']}}</a></li>
                 @endforeach
+                <div class="input-container">
+                    <input type="text" placeholder="Search">
+                    <i class="fas fa-search"></i>
+                </div>
             </ul>
         </nav>
     </div>
     <div class="jumbotron">
-        <img src="/blog/public/img/jumbotron.png" alt="">
+        <!-- <img src="{{asset('img/jumbotron.png')}}" alt=""> -->
     </div>
 </header>
