@@ -15,9 +15,7 @@
         @include('partials.header')
     </header>
     <main>
-        <!-- <div class="jumbotron">
-            <img src="{{asset('img/jumbotron.png')}}" alt="">
-        </div> -->
+        
         @yield('content')
         @include('partials.main') 
     </main>

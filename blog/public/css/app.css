@@ -8,6 +8,9 @@ body {
   padding: 0;
 }
 
+header {
+  /* ../../img/jumbotron.png */
+}
 header .topnav {
   background-color: #0282f9;
   display: flex;
@@ -68,6 +71,16 @@ header .main_menu nav ul .input-container i {
   color: #303030;
   padding-left: 3px;
   font-size: 14px;
+}
+
+.jumbotron {
+  background: url(../../img/jumbotron.jpg);
+  background-size: cover;
+  height: 420px;
+  /* img{
+      height: 500px;
+      width:100%;
+  } */
 }
 
 main {

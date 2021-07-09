@@ -4,7 +4,6 @@
 
 @section('content')
     <h1>Comics Page</h1>
-
     <div class="container">
     @foreach($comics as $index => $comic)
         <div class="comic">
