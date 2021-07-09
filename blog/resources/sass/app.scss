@@ -50,6 +50,9 @@ header{
                 display: flex;
                 list-style-type: none;
                 li{
+                    a:hover{
+                        border-bottom: 3px solid $dc-blue;
+                    }
                     a{ 
                         text-transform: uppercase;
                         color:white;

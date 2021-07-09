@@ -42,6 +42,9 @@ header .main_menu nav ul {
   display: flex;
   list-style-type: none;
 }
+header .main_menu nav ul li a:hover {
+  border-bottom: 3px solid #0282f9;
+}
 header .main_menu nav ul li a {
   text-transform: uppercase;
   color: white;
