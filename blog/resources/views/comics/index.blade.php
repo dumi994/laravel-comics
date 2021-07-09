@@ -10,12 +10,15 @@
         <div class="comic">
                 <a href="{{route('comic', ['id' => $index] )}}">
                 <img src="{{$comic['thumb']}}" alt="">
-                <h2>
+                <h4>
                     {{$comic['series']}}
-                </h2>
+                </h4>
             </a>
         </div>
         @endforeach
+    </div>
+    <div class="button">
+        <button>LOAD MORE</button>
     </div>
     
 @endsection

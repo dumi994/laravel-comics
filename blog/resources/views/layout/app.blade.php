@@ -15,7 +15,11 @@
         @include('partials.header')
     </header>
     <main>
-        @yield('content')    
+        <!-- <div class="jumbotron">
+            <img src="{{asset('img/jumbotron.png')}}" alt="">
+        </div> -->
+        @yield('content')
+        @include('partials.main') 
     </main>
     @include('partials.footer')
     <footer></footer>

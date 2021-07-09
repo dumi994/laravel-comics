@@ -83,7 +83,44 @@ header{
 }
 
 //main
-
-
+main{
+    .container{
+        width:60%;
+        margin:auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        .comic{
+            a{
+                color:$dc-ligh-gray;
+                text-decoration: none;
+                text-align: center;
+                word-wrap: break-word;
+            }
+            max-width:120px;
+            margin:10px 30px;
+            img{
+            max-width:120px;
+                
+            }
+        }
+    }
+    /* background-image: url("/blog/public/img/jumbotron.png"); */
+    
+}
+.button{
+    display: flex;
+    justify-content: center;
+    button{
+        border-radius: 2px;
+        background-color: $dc-blue;
+        color: $dc-white;
+        width: 180px;
+        height: 30px;
+        font-size: 15px;
+        font-weight: 600;
+        box-shadow: none;
+    }
+}
 
 //footer

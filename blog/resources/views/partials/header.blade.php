@@ -59,7 +59,5 @@ $menu = [
             </ul>
         </nav>
     </div>
-    <div class="jumbotron">
-        <!-- <img src="{{asset('img/jumbotron.png')}}" alt=""> -->
-    </div>
+    
 </header>

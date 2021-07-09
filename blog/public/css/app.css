@@ -66,3 +66,42 @@ header .main_menu nav ul .input-container i {
   padding-left: 3px;
   font-size: 14px;
 }
+
+main {
+  /* background-image: url("/blog/public/img/jumbotron.png"); */
+}
+main .container {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+main .container .comic {
+  max-width: 120px;
+  margin: 10px 30px;
+}
+main .container .comic a {
+  color: #d6cfb7;
+  text-decoration: none;
+  text-align: center;
+  word-wrap: break-word;
+}
+main .container .comic img {
+  max-width: 120px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+}
+.button button {
+  border-radius: 2px;
+  background-color: #0282f9;
+  color: #ffffff;
+  width: 180px;
+  height: 30px;
+  font-size: 15px;
+  font-weight: 600;
+  box-shadow: none;
+}
