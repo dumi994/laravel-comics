@@ -157,3 +157,11 @@ main{
     
 }
 //footer
+footer{
+    height: 300px;
+    width:100%;
+    /* display: flex; */
+    background-image: url(../../img/footer-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

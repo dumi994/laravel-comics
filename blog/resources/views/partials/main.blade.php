@@ -1,4 +1,5 @@
 <main>
+    <!-- elements -->
     <div class="elements">
         <div>
             <img src="{{asset('img/buy-comics-digital-comics.png')}}" alt="">
@@ -19,4 +20,5 @@
         </div>
         
     </div>
+    <!-- elements -->
 </main>
