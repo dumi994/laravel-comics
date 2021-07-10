@@ -98,7 +98,7 @@ main .container .comic {
   margin: 10px 30px;
 }
 main .container .comic a {
-  color: #d6cfb7;
+  color: #c7c7c7;
   text-decoration: none;
   text-align: center;
   word-wrap: break-word;
@@ -137,18 +137,49 @@ main .container .comic img {
 .elements div span {
   align-self: center;
   color: white;
+  z-index: 100;
 }
 .elements div img {
   margin: 5px 10px;
   width: 50px;
   height: 60px;
+  z-index: 100;
 }
 
 footer {
-  height: 300px;
+  height: 250px;
   width: 100%;
   /* display: flex; */
   background-image: url(../../img/footer-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+footer .container {
+  position: relative;
+  display: flex;
+  padding-top: 20px;
+}
+footer .left-footer {
+  margin-right: 50px;
+}
+footer .left-footer h1, footer .central-footer h1, footer .right-footer h1 {
+  color: #ffffff;
+}
+footer .left-footer li, footer .central-footer li, footer .right-footer li {
+  list-style-type: none;
+  padding: 5px;
+}
+footer .left-footer li a, footer .central-footer li a, footer .right-footer li a {
+  color: #c7c7c7;
+  text-decoration: none;
+}
+footer .logo-footer {
+  z-index: 1;
+}
+footer .logo-footer img {
+  position: relative;
+  bottom: 100px;
+  left: 130px;
 }
