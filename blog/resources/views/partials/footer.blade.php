@@ -3,9 +3,6 @@
 
 $footer_menu = [
     [
-        'text' => 'Home',
-    ],
-    [
         'text' => 'Characters',
     ],
     [
@@ -21,7 +18,7 @@ $footer_menu = [
         'text' => 'Games',
     ],
     [
-        'text' => 'Fans',
+        'text' => 'News',
     ],
 ];
 $dc_shop=[
@@ -131,5 +128,20 @@ $sites =[
             <img src="{{asset('img/dc-logo-bg.png')}}" alt="">
         </div>
     </div>
+    <div class="cookies">
+        <p>All Site Content TM and &copy; 2020 DC Entertainment, unless otherwise <a href="">noted here</a>. All rights reserved.</p>
+        <a href="">Cookies settings</a>
+    </div>
+    <div class="signup">
+        <button>SIGN-UP NOW</button>
+        <div class="social">
+            <a href="">FOLLOW US</a>
+            <img src="{{asset('img/footer-facebook.png')}}" alt="">
+            <img src="{{asset('img/footer-twitter.png')}}" alt="">
+            <img src="{{asset('img/footer-youtube.png')}}" alt="">
+            <img src="{{asset('img/footer-pinterest.png')}}" alt="">
+            <img src="{{asset('img/footer-periscope.png')}}" alt="">
 
+        </div>
+    </div>
 </footer>
