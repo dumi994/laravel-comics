@@ -4,17 +4,18 @@
 @section('title', 'Comic Page')
 
 @section('content')
-    <h1>Comics Page</h1>
 
     
-        <div class="comic">
+        <div class="comic1">
             <img src="{{$comic['thumb']}}" alt="">
-            <h2>   
-                {{$comic['series']}}
-            </h2>
-            <p>
-                {{$comic['description']}}
-            </p>
+            <div class="gallery">
+                <h4>View Gallery</h4>
+            </div>
+        </div>
+        <div class="container">
+            <div class="action-comics">
+                
+            </div>
         </div>
    
 @endsection

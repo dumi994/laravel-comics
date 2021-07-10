@@ -107,6 +107,40 @@ main .container .comic img {
   max-width: 120px;
 }
 
+/* show */
+.comic1 {
+  color: #ffffff;
+  width: 196px;
+  position: absolute;
+  top: 325px;
+  left: 235px;
+}
+.comic1 img {
+  border: 2px solid white;
+}
+.comic1 .gallery {
+  width: 98%;
+  margin: auto;
+  height: 30px;
+  background-color: #69a2f8;
+  position: absolute;
+  bottom: 6px;
+  left: 2px;
+  text-align: center;
+}
+.comic1 .gallery h4 {
+  padding-top: 5px;
+}
+
+.show-container {
+  display: flex;
+  justify-content: center;
+}
+.show-container .action-comics {
+  text-align: center;
+}
+
+/* /SHOW */
 .button {
   display: flex;
   justify-content: center;
@@ -123,7 +157,6 @@ main .container .comic img {
 }
 
 .elements {
-  margin-top: 20px;
   width: 100%;
   height: 100px;
   background-color: #0282f9;
@@ -195,6 +228,7 @@ footer .cookies a {
   text-decoration: none;
 }
 footer .signup {
+  z-index: 999;
   padding: 0 22.5%;
   margin: auto;
   height: 100px;
