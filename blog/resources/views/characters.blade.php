@@ -1,7 +1,7 @@
 @extends('layout.app')
 
 @section('title')
-    Questo è il mio titolo
+    Characters List
 @endsection
 
 @section('main')

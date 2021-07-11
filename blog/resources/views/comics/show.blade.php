@@ -79,5 +79,24 @@
             </div>
         </div>
     </div>   
-   
+    <div class="footer-elements">
+        <div>
+            <span>DIGITAL COMICS</span>
+            <img src="{{asset('img/buy-comics-digital-comics.png')}}" alt="">
+        </div>
+        <div>
+            <span>DC MERCHANDISE</span>
+            <img src="{{asset('img/buy-comics-merchandise.png')}}" alt="">
+        </div>
+        <div>
+            <span>SUBSCRIPTION</span>
+            <img src="{{asset('img/buy-comics-shop-locator.png')}}" alt="">
+        </div>
+        <div>
+            <span>COMICS SHOP LOCATOR</span>
+            <img src="{{asset('img/buy-comics-subscriptions.png')}}" alt="">
+
+        </div>
+        
+    </div>
 @endsection
