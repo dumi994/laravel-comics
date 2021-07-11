@@ -108,17 +108,45 @@ main .container .comic img {
 }
 
 /* show */
-.comic1 {
+.comic-container {
+  background-color: #ffffff;
+  margin: auto;
+  color: #303030;
+}
+.comic-container .container {
+  width: 75%;
+  margin: auto;
+  display: flex;
+}
+.comic-container .action-comics h2, .comic-container .action-comics p {
+  padding: 20px 0;
+}
+.comic-container .availability {
+  display: flex;
+  background-color: green;
+  border-radius: 2px;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 10px;
+  color: #ffffff;
+}
+.comic-container .availability .available {
+  color: #9de79d;
+}
+.comic-container .availability .available span:first-child {
+  border-right: 1px solid #303030;
+}
+.comic-container .comic1 {
   color: #ffffff;
   width: 196px;
   position: absolute;
   top: 325px;
   left: 235px;
 }
-.comic1 img {
+.comic-container .comic1 img {
   border: 2px solid white;
 }
-.comic1 .gallery {
+.comic-container .comic1 .gallery {
   width: 98%;
   margin: auto;
   height: 30px;
@@ -128,18 +156,59 @@ main .container .comic img {
   left: 2px;
   text-align: center;
 }
-.comic1 .gallery h4 {
+.comic-container .comic1 .gallery h4 {
   padding-top: 5px;
 }
-
-.show-container {
+.comic-container .availability {
   display: flex;
-  justify-content: center;
-}
-.show-container .action-comics {
-  text-align: center;
+  justify-content: space-between;
 }
 
+/* DESCRIIZIONE SINGOLO COMIC */
+.gray {
+  color: #303030;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  padding: 20px 0;
+  z-index: 200;
+  background-color: #dddddd;
+}
+.gray h2 {
+  padding: 15px 0;
+}
+.gray .label {
+  display: inline-block;
+}
+.gray .series, .gray .price-tag, .gray .sale-date {
+  display: flex;
+  justify-content: space-between;
+}
+.gray .specs .label, .gray .art-by .label, .gray .writers .label {
+  margin-right: 150px;
+}
+.gray .art-by, .gray .writers, .gray .series, .gray .price-tag, .gray .sale-date {
+  padding: 25px 0 10px 0;
+  border-bottom: 1px solid #303030;
+  border-top: 1px solid #303030;
+}
+.gray .talent, .gray .specs {
+  width: 37.5%;
+}
+.gray .talent a, .gray .specs a {
+  text-decoration: none;
+  color: #0282f9;
+}
+
+/* / DESCRIZIONE SINGOLO COMIC */
+/* .show-container{
+    display: flex;
+    justify-content: center;
+    .action-comics{
+        text-align: center;
+    }
+}
+ */
 /* /SHOW */
 .button {
   display: flex;
@@ -180,18 +249,19 @@ main .container .comic img {
 }
 
 footer {
+  z-index: 1;
   /* height: 250px; */
   width: 100%;
   background-image: url(../../img/footer-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  margin-top: 20px;
 }
 footer .container {
   position: relative;
   display: flex;
   padding-top: 20px;
   justify-content: center;
-  height: 380px;
 }
 footer .left-footer {
   margin-right: 50px;

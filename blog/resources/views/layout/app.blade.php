@@ -16,10 +16,10 @@
     </header>
     <main>
         
-        @yield('content')
         @include('partials.main') 
+        @yield('content')
     </main>
-    @include('partials.footer')
+        @include('partials.footer')
     <footer></footer>
 </body>
 </html>
